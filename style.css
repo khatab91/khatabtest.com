@@ -1,0 +1,77 @@
+body {
+
+    margin: 0;
+}
+.quote-container {
+    height: 100vh;
+    width: 100%;
+    background: #0e0d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "poppins" , sans-serif;
+    padding: 32px;
+    box-sizing: border-box;
+    
+}
+.quote-container .card{
+max-width: 700px;
+position: fixed;
+
+}
+.quote-container quote-icon {
+    position: fixed;
+    left: -76px;
+    top: -48px;
+    transform: scale(1.5) rotateZ(5deg);
+    opacity: 0.1;
+}
+
+.quote-container .card-body {
+    width: 700px;
+    height: 300px;
+    position: relative;
+    font: bold ;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.quote-container .blockquote-footer {
+    font-size: 16px;
+    color: #ff5e00;
+    padding: 16px 32px; 
+    margin-top: 20px;
+}
+.quote-container .btn-btn-primary {
+    padding: 16px 36px ; 
+    border-radius: 29px;
+    position: fixed;
+    bottom: 36px;
+    left: 50%;
+    transform: translatex(-50%);
+    background: #20b627;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.quote-container .btn-btn-primary:hover {
+    background: #f1f1f1;
+}
+
+@media (max-width: 900px ) {
+    .quote-container .quote-icon {
+        left: -16px;
+    }
+    @media (max-width: 500px) {
+        .quote-container .card
+        font-size: .card 16px;
+        line-height: 1.1;
+    }
+        
+    
+}
